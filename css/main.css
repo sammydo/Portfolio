@@ -1,4 +1,12 @@
 html, body {
   height: 100%; }
 
+.container {
+  min-width: 100%;
+  padding-left: 0;
+  padding-right: 0; }
+
+.header {
+  background-color: #E7D992; }
+
 /*# sourceMappingURL=main.css.map */
