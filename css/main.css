@@ -7,6 +7,9 @@ html, body {
   padding-right: 0; }
 
 .header {
-  background-color: #E7D992; }
+  background-color: blue;
+  height: 300px; }
 
-/*# sourceMappingURL=main.css.map */
+.navbar ul {
+  display: flex;
+  flex-direction: row; }
