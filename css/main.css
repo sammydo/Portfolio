@@ -1,15 +1,142 @@
 html, body {
   height: 100%; }
 
-.container {
-  min-width: 100%;
-  padding-left: 0;
-  padding-right: 0; }
+body {
+  background-color: #e4c097; }
+  body .navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: white;
+    color: #a8a9ad;
+    margin-right: 1px; }
+    body .navbar ul {
+      display: flex;
+      list-style: none;
+      width: 613px;
+      font-size: 20px; }
+    body .navbar li {
+      width: 100%; }
+  body .wrapper {
+    padding-top: 60px;
+    padding-bottom: 60px; }
+    body .wrapper section {
+      margin-bottom: 40px; }
+    body .wrapper .eduction, body .wrapper .technical {
+      font-size: 3em;
+      text-transform: uppercase;
+      text-align: center;
+      margin-bottom: 25px;
+      line-height: 4;
+      color: white; }
+    body .wrapper #education-section {
+      background-color: #fff; }
+      body .wrapper #education-section .section-title {
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 25px;
+        line-height: 4;
+        padding-top: 20px; }
+      body .wrapper #education-section .item {
+        margin-bottom: 45px; }
+        body .wrapper #education-section .item .item-inner {
+          padding: 0 30px; }
+        body .wrapper #education-section .item .degree {
+          font-size: 18px;
+          text-align: center; }
+        body .wrapper #education-section .item .education-body {
+          font-size: 16px;
+          font-weight: 300;
+          text-align: center; }
+        body .wrapper #education-section .item .time {
+          color: #8a8a8a;
+          margin-bottom: 15px;
+          text-align: center; }
+        body .wrapper #education-section .item .desc {
+          font-size: 15px;
+          text-align: justify; }
+    body .wrapper #technical-section {
+      background-color: #fff; }
+      body .wrapper #technical-section .section-title {
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 25px;
+        padding-top: 20px;
+        line-height: 4; }
+      body .wrapper #technical-section .item {
+        margin-bottom: 45px; }
+        body .wrapper #technical-section .item .item-inner {
+          padding: 0 30px; }
+        body .wrapper #technical-section .item .degree {
+          font-size: 18px;
+          text-align: center; }
+        body .wrapper #technical-section .item .desc {
+          font-size: 15px;
+          height: 100px;
+          text-align: justify; }
+          body .wrapper #technical-section .item .desc .star {
+            display: flex;
+            height: 120px;
+            justify-content: center;
+            align-items: center; }
+          body .wrapper #technical-section .item .desc .fa {
+            width: 30px;
+            font-size: 22px; }
+    body .wrapper .Name {
+      height: 138px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      letter-spacing: 1.5px;
+      font-weight: 800; }
+
+.blue_section {
+  padding-top: 268px;
+  text-align: center;
+  background-color: #BDD2D5;
+  height: 600px;
+  color: white; }
+  .blue_section .quote {
+    font-family: Helvetica;
+    letter-spacing: 2.1px;
+    font-size: 1.9em;
+    font-weight: lighter; }
+  .blue_section .sjobs {
+    margin-top: 50px;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 1.4em; }
+
+.work_experience {
+  text-align: center;
+  background-color: white;
+  height: 200px; }
+  .work_experience .work_e_heading {
+    font-size: 3em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 25px;
+    line-height: 4;
+    color: #a8a9ad; }
 
 .header {
-  background-color: blue;
-  height: 300px; }
-
-.navbar ul {
-  display: flex;
-  flex-direction: row; }
+  position: relative;
+  height: 600px;
+  background-image: url(/images/two.png);
+  background-size: auto 1000px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed; }
+  .header .mugshot {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-position: center;
+    position: absolute;
+    top: 40%;
+    margin-top: -50px; }
+    .header .mugshot img {
+      height: 163px;
+      width: 160px;
+      border: solid 7px rgba(253, 227, 255, 0.3); }
