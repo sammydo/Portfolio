@@ -79,7 +79,7 @@ body {
             height: 120px;
             justify-content: center;
             align-items: center; }
-          body .wrapper #technical-section .item .desc .fa {
+          body .wrapper #technical-section .item .desc .fa-star, body .wrapper #technical-section .item .desc .fa-star-o {
             width: 30px;
             font-size: 22px; }
     body .wrapper .Name {
@@ -91,11 +91,14 @@ body {
       font-weight: 800; }
 
 .blue_section {
-  padding-top: 268px;
+  padding-top: 177px;
   text-align: center;
   background-color: #BDD2D5;
   height: 600px;
   color: white; }
+  .blue_section .fa-quote-left {
+    font-size: 40px;
+    margin-bottom: 80px; }
   .blue_section .quote {
     font-family: Helvetica;
     letter-spacing: 2.1px;
@@ -140,3 +143,80 @@ body {
       height: 163px;
       width: 160px;
       border: solid 7px rgba(253, 227, 255, 0.3); }
+
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+.work_ex_timeline {
+  position: relative;
+  height: 900px;
+  background-image: url(/images/four.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed; }
+  .work_ex_timeline .card-deck {
+    padding-top: 320px; }
+
+.service-modal .modal-dialog {
+  width: auto; }
+
+.service-modal .modal-content {
+  border-radius: 0;
+  background-clip: border-box;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  min-height: 100%;
+  padding: 100px 0;
+  text-align: justify; }
+
+.service-modal .modal-title {
+  text-align: center; }
+
+.service-modal .modal-content h2 {
+  margin-bottom: 15px;
+  font-size: 3em; }
+
+.service-modal .modal-content img {
+  margin-bottom: 30px; }
+
+.service-modal .modal-content p {
+  margin-bottom: 30px; }
+
+.service-modal .close-modal {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  top: 50px;
+  right: 50px;
+  cursor: pointer; }
+
+.service-modal .close-modal .close-icon {
+  height: 30px;
+  width: 1px;
+  margin-left: 15px;
+  background-color: #555;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  z-index: 1000; }
+
+.service-modal .close-modal:hover .close-icon {
+  background-color: #e74c3c; }
+
+.service-modal .close-modal .close-icon .close-icon-r {
+  height: 30px;
+  width: 1px;
+  background-color: #555;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  /* IE 9 */
+  -webkit-transform: rotate(90deg);
+  /* Safari and Chrome */
+  z-index: 1000; }
+
+.service-modal .close-modal:hover .close-icon .close-icon-r {
+  background-color: #e74c3c; }
