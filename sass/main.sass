@@ -1,25 +1,13 @@
-html,body
+html, body
   height: 100%
+   overflow-x: hidden
+   overflow-y: hidden
 
 body
   background-color: #e4c097
 
-  .navbar
-    display: flex
-    justify-content: flex-end
-    align-items: flex-end
-    background-color: white
-    color: #a8a9ad
-    margin-right: 1px
 
-    ul
-      display: flex
-      list-style: none
-      width: 613px
-      font-size: 20px
 
-    li
-      width: 100%
 
   .wrapper
     padding-top: 60px
@@ -35,7 +23,6 @@ body
       margin-bottom: 25px
       line-height: 4
       color: white
-
 
     #education-section
       background-color: #fff
@@ -61,13 +48,15 @@ body
           font-size: 16px
           font-weight: 300
           text-align: center
+
         .time
           color: #8a8a8a
           margin-bottom: 15px
           text-align: center
+
         .desc
           font-size: 15px
-          text-align: justify
+          text-align: center
 
     #technical-section
       background-color: #fff
@@ -104,8 +93,6 @@ body
             width: 30px
             font-size: 22px
 
-
-
     .Name
       height: 138px
       display: flex
@@ -120,17 +107,16 @@ body
   background-color: #BDD2D5
   height: 600px
   color: white
+
   .fa-quote-left
     font-size: 40px
     margin-bottom: 80px
-
 
   .quote
     font-family: Helvetica
     letter-spacing: 2.1px
     font-size: 1.9em
     font-weight: lighter
-
 
   .sjobs
     margin-top: 50px
@@ -151,8 +137,6 @@ body
     line-height: 4
     color: #a8a9ad
 
-
-
     // width: 116%
     // margin-left: -86px
 
@@ -165,8 +149,15 @@ body
     repeat: no-repeat
     position: top center
     attachment: fixed
-  // background-color:  #E7D992
-  // height: 178px
+
+  .my_name
+    display: flex
+    align-items: center
+    justify-content: center
+    height: 800px
+    font-size: 20px
+    animation: type 4s steps(60, end)
+
 
   .mugshot
     width: 100%
@@ -178,6 +169,7 @@ body
     position: absolute
     top: 40%
     margin-top: -50px
+
 
     img
       height: 163px
@@ -194,6 +186,7 @@ body
 .work_ex_timeline
   position: relative
   height: 900px
+
   // filter: blur(2.5px)
   background:
     image: url(/images/four.png)
@@ -203,78 +196,155 @@ body
     attachment: fixed
 
   .card-deck
-    padding-top: 320px
+    padding-top: 420px
 
-.service-modal .modal-dialog
-  width: auto
+    .card-title
+      margin-bottom: 20px!important
 
-.service-modal .modal-content
-  border-radius: 0
-  background-clip: border-box
-  -webkit-box-shadow: none
-  box-shadow: none
-  border: none
-  min-height: 100%
-  padding: 100px 0
-  text-align: justify
-
-.service-modal .modal-title
-  text-align: center
-
-.service-modal .modal-content h2
-  margin-bottom: 15px
-  font-size: 3em
-
-.service-modal .modal-content img
-  margin-bottom: 30px
-
-.service-modal .modal-content p
-  margin-bottom: 30px
-
-.service-modal .close-modal
-  position: absolute
-  width: 30px
-  height: 30px
-  background-color: transparent
-  top: 50px
-  right: 50px
-  cursor: pointer
-
-.service-modal .close-modal .close-icon
-  height: 30px
-  width: 1px
-  margin-left: 15px
-  background-color: #555
-  transform: rotate(45deg)
-  -ms-transform: rotate(45deg)
-  -webkit-transform: rotate(45deg)
-  z-index: 1000
-
-.service-modal .close-modal:hover .close-icon
-  background-color: #e74c3c
-
-.service-modal .close-modal .close-icon .close-icon-r
-  height: 30px
-  width: 1px
-  background-color: #555
-  transform: rotate(90deg)
-  -ms-transform: rotate(90deg)
-  /* IE 9 */
-  -webkit-transform: rotate(90deg)
-  /* Safari and Chrome */
-  z-index: 1000
-
-.service-modal .close-modal:hover .close-icon .close-icon-r
-  background-color: #e74c3c
+// PROJECT SECTION
+// ------------------
+// ------------------------
+.project_section
+  padding-top: 60px
+  section
+    margin-bottom: 40px
 
 
-  // .container
-  //   display: flex
-  //   padding-top: 220px
+  .project_title
+    font-size: 3em
+    text-transform: uppercase
+    text-align: center
+    margin-bottom: 25px
+    line-height: 4
+    color: white
+
+  .card-title
+    margin-top: 20px
+    margin-bottom: 20px
+
+
+.contact_me
+  position: relative
+  height: 900px
+
+  // filter: blur(2.5px)
+  background:
+    image: url(/images/form1.png)
+    size: cover
+    repeat: no-repeat
+    position: top center
+    attachment: fixed
+  .container
+    display: flex
+    height: 100%
+    align-items: center
+
+  .contact_title
+    font-size: 3em
+    text-transform: uppercase
+    text-align: center
+    padding-top: 147px
+    margin-bottom: 19px
+    line-height: 4
+    color: white
+
+
+.footer
+  position:fixed
+  bottom: 0
+  width: 100%
+  line-height: 60px
+  background-color: #f5f5f5
+
+  .container
+    padding-top: 20px
+
+  .btn
+    display: flex
+    height: 57px
+    justify-content: center
 
 
 
-  // .about-text
-  //   background: rgba(0,0,0,0.75)
-  //   color: #fff
-  //   padding: 1.8rem
+  .social_media
+    height: 130px
+    font-size: 47px
+    display: flex
+    align-items: center
+    justify-content: space-around
+
+    .fa
+      color: #8a8a8a
+      transition: all 0.6s ease-in-out
+      //how long the transition will take
+
+      &:hover
+        color: #e4c097
+        transform: scale(2.1)
+        // tansofrming the scale (size) of the icon
+
+
+
+
+
+// MODAL
+//  --------------------
+// -------------------------
+.service-modal
+  .modal-dialog
+    width: auto
+
+  .modal-content
+    border-radius: 0
+    background-clip: border-box
+    -webkit-box-shadow: none
+    box-shadow: none
+    border: none
+    min-height: 100%
+    padding: 100px 0
+    text-align: justify
+
+    h2
+      margin-bottom: 15px
+      font-size: 3em
+    img
+      margin-bottom: 30px
+
+    p
+      margin-bottom: 30px
+
+
+  .modal-title
+    text-align: center
+
+
+  .close-modal
+    position: absolute
+    width: 30px
+    height: 30px
+    background-color: transparent
+    top: 50px
+    right: 50px
+    cursor: pointer
+
+    .close-icon
+      height: 30px
+      width: 1px
+      margin-left: 15px
+      background-color: #555
+      transform: rotate(45deg)
+      -ms-transform: rotate(45deg)
+      -webkit-transform: rotate(45deg)
+      z-index: 1000
+    .close-icon .close-icon-r
+      height: 30px
+      width: 1px
+      background-color: #555
+      transform: rotate(90deg)
+      -ms-transform: rotate(90deg)
+
+      /* IE 9
+      -webkit-transform: rotate(90deg)
+
+      /* Safari and Chrome
+      z-index: 1000
